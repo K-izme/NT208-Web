@@ -1,10 +1,18 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './custom.css'
+import Image from 'react-bootstrap/Image';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
+import img1 from '../../images/img1.svg';
+import backgroundimg from '../../images/leftimagesbackground.svg';
+import { Container } from 'react-bootstrap';
 
 function Home () {
     const backgroundColor = {
         backgroundColor: "#0E1620",
-        height: "7432px"
+        height: "7432px",
+        zIndex: -2
       };
 
     return (
@@ -43,13 +51,35 @@ function Home () {
             </nav>
 
 
-            <div className="Home">
-                <h2 className="Title title">
-                    Code <span style={{ color: "#21B573" }}>Lord</span>
-                    <br />
-                    Code your dream
-                </h2>
-            </div>
+            <Row className="HomeStart">
+                <div>
+                    <h2 className="Title title">
+                        Code <span style={{ color: "#21B573" }}>Lord</span>
+                        <br />
+                        Code your dreams
+                    </h2>
+                    
+                    <div className="background-img1 background-img1">
+                        <Image className="backroundimg1" src={backgroundimg} alt="lung" />
+                    </div> 
+
+                    <div className="left-img left-img">
+                        <Image className="img1" src={img1} alt="a-man-using-laptop" />
+                    </div> 
+                </div>
+
+                <Col class="position-relative">
+                    <div class="col-md-8 justify-content-center">
+                        <div class="search ">
+                            <i class="fa fa-search"></i>
+                            <input type="text" class="form-control" placeholder="What do you want to learn"/>
+                            <button class="btn btn-primary">Learn</button>
+                        </div>
+                    </div>
+                </Col>
+
+            </Row>
+
 
 
         </div>
