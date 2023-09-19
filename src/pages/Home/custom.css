@@ -1,0 +1,66 @@
+.codelord {
+    font-size: 29px;
+    margin-left: 60px;
+    margin-right: 700px;
+    font-weight: bold;
+  }
+.code {
+    color: #D9ECFF; 
+}
+
+.lord {
+    color: #21B573; 
+}
+
+.select {
+    font-size: 18px;
+    font-family: 'Inter', sans-serif; 
+    color: #D9ECFF;
+}
+
+.select .nav-link {
+    color: #D9ECFF;
+    font-weight: 400 
+  }
+
+.button-distance{
+    margin-right: 60px;
+}
+.button-text {
+    font-size: 18px;
+    font-weight: bold;
+    color:  #D9ECFF;
+}
+
+.button-container {
+    display: inline-block; 
+    border: 3px solid #D9ECFF; 
+    width: 126px;
+    height: 60px;
+    border-radius: 50px;
+
+}
+
+.background-color {
+    color: #0E1620;
+}
+
+.poppins-font{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*make the header stay*/
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.title {
+    text-align: center;
+    margin-top: 200px;
+    font-size: 90px;
+    font-weight: bold;
+    color: #D9ECFF;
+}
