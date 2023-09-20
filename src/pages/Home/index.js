@@ -342,10 +342,57 @@ function Home () {
                     </Row>
                 </Container>
             </div>
-            <Container className='how'>
+            <Container className='how' >
                 <Image className='background2' src={Background} alt='Background2' />
-            
-                <Col> 
+
+                <Row className='howcodelordworks'>
+                    <p>
+                        <span className='How'>How </span>
+                        <span className="code code">Code</span> 
+                        <span className="lord lord">Lord</span>
+                        <span className='works'> works</span>
+                    </p>
+                </Row>    
+
+                <Col className='instruction'> 
+                    <Row className="boxsignup">
+                        <div className="group-signup">
+                            <div className="overlap-group">
+                                <div className="overlap">
+                                    <Image className="element-business" alt="Element business" src = {work}/>
+                                </div>
+                                <div className="text-wrapper">Sign Up</div>
+                                <p className="sign-up-for-a-free">
+                                    <span className="span">Sign up for a </span>
+                                    <span className="text-wrapper-2">free account</span>
+                                    <span className="span"> on </span>
+                                    <span className="text-wrapper-2">Code</span>
+                                    <span className="text-wrapper-3">Lord</span>
+                                    <span className="text-wrapper-2">&nbsp;</span>
+                                    <span className="span">to advance in IT and boost your career.</span>
+                                </p>
+                            </div>
+                        </div>
+                    </Row>
+                    <Row className="boxsignup">
+                        <div className="group-signup">
+                            <div className="overlap-group">
+                                <div className="overlap">
+                                    <Image className="element-business" alt="Element business" src = {work}/>
+                                </div>
+                                <div className="text-wrapper">Sign Up</div>
+                                <p className="sign-up-for-a-free">
+                                    <span className="span">Sign up for a </span>
+                                    <span className="text-wrapper-2">free account</span>
+                                    <span className="span"> on </span>
+                                    <span className="text-wrapper-2">Code</span>
+                                    <span className="text-wrapper-3">Lord</span>
+                                    <span className="text-wrapper-2">&nbsp;</span>
+                                    <span className="span">to advance in IT and boost your career.</span>
+                                </p>
+                            </div>
+                        </div>
+                    </Row>
                     <Row className="boxsignup">
                         <div className="group-signup">
                             <div className="overlap-group">
